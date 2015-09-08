@@ -11,5 +11,4 @@ Pod::Spec.new do |spec|
   spec.source_files = 'CJWLib/*'
   spec.framework = "UIKit"
   spec.requires_arc = true
-  spec.dependency 'SocketRocket'
 end
