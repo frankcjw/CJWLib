@@ -13,6 +13,7 @@
 		010669D41B9E923300088A74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010669D31B9E923300088A74 /* Images.xcassets */; };
 		010669D71B9E923300088A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010669D51B9E923300088A74 /* LaunchScreen.xib */; };
 		010669E31B9E923300088A74 /* CJWLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010669E21B9E923300088A74 /* CJWLibTests.swift */; };
+		010669EE1B9EAE9300088A74 /* CJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010669ED1B9EAE9300088A74 /* CJW.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		010669DC1B9E923300088A74 /* CJWLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJWLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010669E11B9E923300088A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010669E21B9E923300088A74 /* CJWLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJWLibTests.swift; sourceTree = "<group>"; };
+		010669ED1B9EAE9300088A74 /* CJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJW.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				010669D31B9E923300088A74 /* Images.xcassets */,
 				010669D51B9E923300088A74 /* LaunchScreen.xib */,
 				010669CA1B9E923300088A74 /* Supporting Files */,
+				010669ED1B9EAE9300088A74 /* CJW.swift */,
 			);
 			path = CJWLib;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				010669CF1B9E923300088A74 /* ViewController.swift in Sources */,
 				010669CD1B9E923300088A74 /* AppDelegate.swift in Sources */,
+				010669EE1B9EAE9300088A74 /* CJW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
