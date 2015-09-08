@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = 'Frank C'
   spec.source       = { :git => 'git://github.com/frankcjw/CJWLib.git', :tag => '1.0' }
   spec.source_files = 'CJWLib/*'
+  spec.framework = "UIKit"
   spec.requires_arc = true
   spec.dependency 'SocketRocket'
 end
