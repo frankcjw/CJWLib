@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/lukeredpath/libPusher'
   spec.author       = 'Frank C'
   spec.source       = { :git => 'git://github.com/frankcjw/CJWLib.git'}
-  spec.source_files = 'CJWLib/*.swift'
+  spec.source_files = 'CJWLib/Source/*.swift'
   spec.framework = "UIKit"
   spec.requires_arc = true
 end

@@ -14,6 +14,7 @@
 		010669D71B9E923300088A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010669D51B9E923300088A74 /* LaunchScreen.xib */; };
 		010669E31B9E923300088A74 /* CJWLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010669E21B9E923300088A74 /* CJWLibTests.swift */; };
 		010669EE1B9EAE9300088A74 /* CJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010669ED1B9EAE9300088A74 /* CJW.swift */; };
+		01066B241B9ED99000088A74 /* CJWLibUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B231B9ED99000088A74 /* CJWLibUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,8 @@
 		010669DC1B9E923300088A74 /* CJWLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJWLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010669E11B9E923300088A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		010669E21B9E923300088A74 /* CJWLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJWLibTests.swift; sourceTree = "<group>"; };
-		010669ED1B9EAE9300088A74 /* CJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJW.swift; sourceTree = "<group>"; };
+		010669ED1B9EAE9300088A74 /* CJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJW.swift; path = ../CJW.swift; sourceTree = "<group>"; };
+		01066B231B9ED99000088A74 /* CJWLibUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWLibUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +81,13 @@
 		010669C91B9E923300088A74 /* CJWLib */ = {
 			isa = PBXGroup;
 			children = (
-				010669EC1B9EAE0800088A74 /* Source */,
+				01066B221B9ED96400088A74 /* Source */,
 				010669CC1B9E923300088A74 /* AppDelegate.swift */,
 				010669CE1B9E923300088A74 /* ViewController.swift */,
 				010669D01B9E923300088A74 /* Main.storyboard */,
 				010669D31B9E923300088A74 /* Images.xcassets */,
 				010669D51B9E923300088A74 /* LaunchScreen.xib */,
 				010669CA1B9E923300088A74 /* Supporting Files */,
-				010669ED1B9EAE9300088A74 /* CJW.swift */,
 			);
 			path = CJWLib;
 			sourceTree = "<group>";
@@ -116,9 +117,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		010669EC1B9EAE0800088A74 /* Source */ = {
+		01066B221B9ED96400088A74 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				010669ED1B9EAE9300088A74 /* CJW.swift */,
+				01066B231B9ED99000088A74 /* CJWLibUtils.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01066B241B9ED99000088A74 /* CJWLibUtils.swift in Sources */,
 				010669CF1B9E923300088A74 /* ViewController.swift in Sources */,
 				010669CD1B9E923300088A74 /* AppDelegate.swift in Sources */,
 				010669EE1B9EAE9300088A74 /* CJW.swift in Sources */,
@@ -421,6 +425,7 @@
 				010669E81B9E923300088A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		010669E91B9E923300088A74 /* Build configuration list for PBXNativeTarget "CJWLibTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +434,7 @@
 				010669EB1B9E923300088A74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
