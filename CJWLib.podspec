@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.platform = :ios
   spec.version      = '1.0'
-  spec.license      = 'LICENSE'
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.summary      = 'An Objective-C client for the Pusher.com service'
   spec.homepage     = 'https://github.com/lukeredpath/libPusher'
   spec.author       = 'Frank C'
