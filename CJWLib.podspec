@@ -1,17 +1,12 @@
-Pod::Spec.new do |s|
-  s.name = 'CJWLib'
-  s.version = '1.0'
-  s.license = 'MIT'
-  s.summary = 'CJW Library'
-  s.homepage = 'https://github.com/frankcjw/CJWLib'
-  s.social_media_url = 'http://www.cenjiawen.com'
-  s.authors = { 'Frank => 'cjwdevelop@gmail.com' }
-  s.source = { :git => 'https://github.com/frankcjw/CJWLib.git', :tag => '1.0'}
-
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
-
-  s.source_files = 'CJWLib/*.swift'
-
-  s.requires_arc = true
+Pod::Spec.new do |spec|
+  spec.name         = 'CJWLib'
+  spec.version      = '1.0'
+  spec.license      = 'LICENSE'
+  spec.summary      = 'An Objective-C client for the Pusher.com service'
+  spec.homepage     = 'https://github.com/lukeredpath/libPusher'
+  spec.author       = 'Frank C'
+  spec.source       = { :git => 'git://github.com/frankcjw/CJWLib.git', :tag => '1.0' }
+  spec.source_files = 'CJWLib/*'
+  spec.requires_arc = true
+  spec.dependency 'SocketRocket'
 end
