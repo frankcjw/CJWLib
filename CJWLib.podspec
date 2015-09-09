@@ -10,5 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'git://github.com/frankcjw/CJWLib.git'}
   spec.source_files = 'CJWLib/Source/*.swift'
   spec.framework = "UIKit"
+  spec.dependency = 'CJWUtils', :git => 'https://github.com/frankcjw/CJWUtils.git'
   spec.requires_arc = true
 end

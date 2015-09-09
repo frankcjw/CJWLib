@@ -8,6 +8,7 @@
 
 import UIKit
 
-class CJWLibUtils: NSObject {
-   
+public class CJWLibUtils: NSObject {
+    public func libbbb(){
+    }
 }
