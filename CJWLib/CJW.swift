@@ -10,6 +10,6 @@ import UIKit
 
 public class CJW: NSObject {
     public func testing(){
-        println("testing")
+        print("testing", terminator: "")
     }
 }

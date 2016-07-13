@@ -10,7 +10,7 @@ import UIKit
 
 public class CJWLib: NSObject {
     public func testing(){
-        println("helllo")
+        print("helllo")
     }
     
     public func cao(){

@@ -16,6 +16,14 @@
 		010669EE1B9EAE9300088A74 /* CJW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010669ED1B9EAE9300088A74 /* CJW.swift */; };
 		01066B241B9ED99000088A74 /* CJWLibUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B231B9ED99000088A74 /* CJWLibUtils.swift */; };
 		01066B261B9FDA7A00088A74 /* CJWLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B251B9FDA7900088A74 /* CJWLib.swift */; };
+		01066B2C1B9FFF7900088A74 /* CJWAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B2B1B9FFF7900088A74 /* CJWAppearance.swift */; };
+		01066B2E1BA0001A00088A74 /* CJWBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B2D1BA0001A00088A74 /* CJWBaseTableViewCell.swift */; };
+		01066B301BA0012F00088A74 /* CJWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B2F1BA0012F00088A74 /* CJWBaseViewController.swift */; };
+		01066B321BA0015300088A74 /* CJWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B311BA0015300088A74 /* CJWColor.swift */; };
+		01066B341BA002B300088A74 /* CJWUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01066B331BA002B300088A74 /* CJWUtils.swift */; };
+		01066B381BA0048B00088A74 /* CJW.m in Sources */ = {isa = PBXBuildFile; fileRef = 01066B371BA0048B00088A74 /* CJW.m */; };
+		01E2EC1B1D3613E4001D7A77 /* CJWUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2EC1A1D3613E4001D7A77 /* CJWUDID.m */; };
+		675448171426E7659BB2F8E6 /* libPods-CJWLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FFFAC65D52D17F65FA98B9 /* libPods-CJWLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,21 @@
 		010669ED1B9EAE9300088A74 /* CJW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJW.swift; path = ../CJW.swift; sourceTree = "<group>"; };
 		01066B231B9ED99000088A74 /* CJWLibUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWLibUtils.swift; sourceTree = "<group>"; };
 		01066B251B9FDA7900088A74 /* CJWLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWLib.swift; sourceTree = "<group>"; };
+		01066B2B1B9FFF7900088A74 /* CJWAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWAppearance.swift; sourceTree = "<group>"; };
+		01066B2D1BA0001A00088A74 /* CJWBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWBaseTableViewCell.swift; sourceTree = "<group>"; };
+		01066B2F1BA0012F00088A74 /* CJWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWBaseViewController.swift; sourceTree = "<group>"; };
+		01066B311BA0015300088A74 /* CJWColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWColor.swift; sourceTree = "<group>"; };
+		01066B331BA002B300088A74 /* CJWUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJWUtils.swift; sourceTree = "<group>"; };
+		01066B351BA0048B00088A74 /* CJWLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJWLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		01066B361BA0048B00088A74 /* CJW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJW.h; sourceTree = "<group>"; };
+		01066B371BA0048B00088A74 /* CJW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJW.m; sourceTree = "<group>"; };
+		01066B401BA0073500088A74 /* CJWLib-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJWLib-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		01066B451BA0097A00088A74 /* CJWHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJWHeader.h; sourceTree = "<group>"; };
+		01E2EC191D3613E4001D7A77 /* CJWUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJWUDID.h; sourceTree = "<group>"; };
+		01E2EC1A1D3613E4001D7A77 /* CJWUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJWUDID.m; sourceTree = "<group>"; };
+		38A4DCD396C0F8147DE78961 /* Pods-CJWLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJWLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJWLib/Pods-CJWLib.debug.xcconfig"; sourceTree = "<group>"; };
+		54271BC9AD877DC56DC987FB /* Pods-CJWLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJWLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJWLib/Pods-CJWLib.release.xcconfig"; sourceTree = "<group>"; };
+		F1FFFAC65D52D17F65FA98B9 /* libPods-CJWLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CJWLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				675448171426E7659BB2F8E6 /* libPods-CJWLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +89,12 @@
 		010669BE1B9E923300088A74 = {
 			isa = PBXGroup;
 			children = (
+				01066B451BA0097A00088A74 /* CJWHeader.h */,
 				010669C91B9E923300088A74 /* CJWLib */,
 				010669DF1B9E923300088A74 /* CJWLibTests */,
 				010669C81B9E923300088A74 /* Products */,
+				43438C175A86652C808C40CD /* Pods */,
+				D2DCBC5C656D27A7C5CB63F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +110,9 @@
 		010669C91B9E923300088A74 /* CJWLib */ = {
 			isa = PBXGroup;
 			children = (
+				01E2EC161D3613B5001D7A77 /* Lib */,
+				01066B401BA0073500088A74 /* CJWLib-prefix.pch */,
+				01066B2A1B9FFF7900088A74 /* UI */,
 				01066B221B9ED96400088A74 /* Source */,
 				010669CC1B9E923300088A74 /* AppDelegate.swift */,
 				010669CE1B9E923300088A74 /* ViewController.swift */,
@@ -90,6 +120,9 @@
 				010669D31B9E923300088A74 /* Images.xcassets */,
 				010669D51B9E923300088A74 /* LaunchScreen.xib */,
 				010669CA1B9E923300088A74 /* Supporting Files */,
+				01066B361BA0048B00088A74 /* CJW.h */,
+				01066B371BA0048B00088A74 /* CJW.m */,
+				01066B351BA0048B00088A74 /* CJWLib-Bridging-Header.h */,
 			);
 			path = CJWLib;
 			sourceTree = "<group>";
@@ -122,11 +155,49 @@
 		01066B221B9ED96400088A74 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				01066B331BA002B300088A74 /* CJWUtils.swift */,
 				010669ED1B9EAE9300088A74 /* CJW.swift */,
 				01066B231B9ED99000088A74 /* CJWLibUtils.swift */,
 				01066B251B9FDA7900088A74 /* CJWLib.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		01066B2A1B9FFF7900088A74 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				01066B311BA0015300088A74 /* CJWColor.swift */,
+				01066B2F1BA0012F00088A74 /* CJWBaseViewController.swift */,
+				01066B2D1BA0001A00088A74 /* CJWBaseTableViewCell.swift */,
+				01066B2B1B9FFF7900088A74 /* CJWAppearance.swift */,
+			);
+			path = UI;
+			sourceTree = SOURCE_ROOT;
+		};
+		01E2EC161D3613B5001D7A77 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				01E2EC191D3613E4001D7A77 /* CJWUDID.h */,
+				01E2EC1A1D3613E4001D7A77 /* CJWUDID.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		43438C175A86652C808C40CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38A4DCD396C0F8147DE78961 /* Pods-CJWLib.debug.xcconfig */,
+				54271BC9AD877DC56DC987FB /* Pods-CJWLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2DCBC5C656D27A7C5CB63F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FFFAC65D52D17F65FA98B9 /* libPods-CJWLib.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 010669E61B9E923300088A74 /* Build configuration list for PBXNativeTarget "CJWLib" */;
 			buildPhases = (
+				FADA2959065BB258F7647660 /* Check Pods Manifest.lock */,
 				010669C31B9E923300088A74 /* Sources */,
 				010669C41B9E923300088A74 /* Frameworks */,
 				010669C51B9E923300088A74 /* Resources */,
+				78772A2BDDB650866FA3B73A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +246,8 @@
 		010669BF1B9E923300088A74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = frank;
 				TargetAttributes = {
@@ -224,16 +299,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78772A2BDDB650866FA3B73A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CJWLib/Pods-CJWLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADA2959065BB258F7647660 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		010669C31B9E923300088A74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01066B381BA0048B00088A74 /* CJW.m in Sources */,
 				01066B241B9ED99000088A74 /* CJWLibUtils.swift in Sources */,
+				01E2EC1B1D3613E4001D7A77 /* CJWUDID.m in Sources */,
+				01066B341BA002B300088A74 /* CJWUtils.swift in Sources */,
+				01066B2E1BA0001A00088A74 /* CJWBaseTableViewCell.swift in Sources */,
 				010669CF1B9E923300088A74 /* ViewController.swift in Sources */,
+				01066B2C1B9FFF7900088A74 /* CJWAppearance.swift in Sources */,
 				010669CD1B9E923300088A74 /* AppDelegate.swift in Sources */,
+				01066B321BA0015300088A74 /* CJWColor.swift in Sources */,
 				010669EE1B9EAE9300088A74 /* CJW.swift in Sources */,
 				01066B261B9FDA7A00088A74 /* CJWLib.swift in Sources */,
+				01066B301BA0012F00088A74 /* CJWBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,21 +473,28 @@
 		};
 		010669E71B9E923300088A74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A4DCD396C0F8147DE78961 /* Pods-CJWLib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CJWLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CJWLib/CJWLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		010669E81B9E923300088A74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54271BC9AD877DC56DC987FB /* Pods-CJWLib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CJWLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CJWLib/CJWLib-Bridging-Header.h";
 			};
 			name = Release;
 		};

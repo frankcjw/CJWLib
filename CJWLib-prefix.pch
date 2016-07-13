@@ -1,0 +1,5 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "UIImageView+WebCache.h"
+#endif
+
